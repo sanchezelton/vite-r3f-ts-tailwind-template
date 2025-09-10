@@ -20,7 +20,12 @@
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "baseUrl": "src",
+    "paths": {
+      "three/webgpu": ["node_modules/three/build/three.webgpu.js"],
+      "three/tsl": ["node_modules/three/build/three.tsl.js"],
+    },
   },
   "include": ["src"]
 }
